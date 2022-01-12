@@ -1,2 +1,2 @@
-# is-login
+# island.is-login
 Island.is innskráning

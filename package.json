@@ -1,0 +1,45 @@
+{
+  "name": "island.is-login",
+  "version": "0.0.1",
+  "description": "NodeJS kóði fyrir island.is innskráningu",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergur/island.is-login.git"
+  },
+  "keywords": [
+    "island.is",
+    "innskraning",
+    "rafræn",
+    "skilríki",
+    "digital",
+    "iceland"
+  ],
+  "author": "Bergur Hallgrímsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergur/is-login/issues"
+  },
+  "homepage": "https://github.com/bergur/is-login#readme",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.0",
+    "node-forge": "^1.2.0",
+    "xml-crypto": "^2.1.3",
+    "xml2js": "^0.4.23",
+    "xpath": "0.0.32"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.4.7"
+  }
+}

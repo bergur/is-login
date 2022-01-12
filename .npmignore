@@ -1,0 +1,5 @@
+.eslintrc
+.jestrc
+**/**/*.spec.js
+assets/
+node_modules/
