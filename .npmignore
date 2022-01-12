@@ -3,3 +3,4 @@
 **/**/*.spec.js
 assets/
 node_modules/
+coverage/
